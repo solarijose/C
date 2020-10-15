@@ -1,0 +1,718 @@
+16:17:50 **** Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+16:18:01 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:21:23: error: expected ‘;’ before ‘sum’
+   21 |  scanf("%d",&integer2)//leer una variable
+      |                       ^
+      |                       ;
+   22 |  sum= integer1+integer2;
+      |  ~~~                   
+../src/LibroC1.c:23:2: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   23 |  print("La suma es %d\n", sum);
+      |  ^~~~~
+      |  printf
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:18:10 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:21:23: error: expected ‘;’ before ‘sum’
+   21 |  scanf("%d",&integer2)//leer una variable
+      |                       ^
+      |                       ;
+   22 |  sum= integer1+integer2;
+      |  ~~~                   
+../src/LibroC1.c:23:2: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   23 |  print("La suma es %d\n", sum);
+      |  ^~~~~
+      |  printf
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:18:47 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:2: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   23 |  print("La suma es %d\n", sum);
+      |  ^~~~~
+      |  printf
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+/usr/bin/ld: ./src/LibroC1.o: en la función `main':
+/home/wolf/eclipse-workspace/C/LibroC1/Debug/../src/LibroC1.c:23: referencia a `print' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: LibroC1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:18:58 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:2: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   23 |  print("La suma es %d\n", sum);
+      |  ^~~~~
+      |  printf
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+/usr/bin/ld: ./src/LibroC1.o: en la función `main':
+/home/wolf/eclipse-workspace/C/LibroC1/Debug/../src/LibroC1.c:23: referencia a `print' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: LibroC1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:19:27 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:24:2: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+   24 |  print("La suma es %d\n", sum);
+      |  ^~~~~
+      |  printf
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+/usr/bin/ld: ./src/LibroC1.o: en la función `main':
+/home/wolf/eclipse-workspace/C/LibroC1/Debug/../src/LibroC1.c:24: referencia a `print' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: LibroC1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:19:39 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+/usr/bin/ld: ./src/LibroC1.o: en la función `main':
+/home/wolf/eclipse-workspace/C/LibroC1/Debug/../src/LibroC1.c:24: referencia a `print' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:32: LibroC1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:20:02 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:24:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("La suma es %d\n",&sum);
+      |                     ~^    ~~~~
+      |                      |    |
+      |                      int  int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+16:20:09 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+16:20:21 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:24:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("La suma es %d\n",&sum);
+      |                     ~^    ~~~~
+      |                      |    |
+      |                      int  int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+16:21:03 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+16:21:08 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+16:21:20 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+16:21:40 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+16:27:22 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+16:27:26 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+17:03:59 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+17:04:07 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:17:26: warning: variable ‘sum’ set but not used [-Wunused-but-set-variable]
+   17 |  int integer1, integer2, sum;
+      |                          ^~~
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+17:05:29 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+17:07:30 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+17:07:35 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+17:07:42 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:50:13 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:18:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   18 |  scanf("Ingresar un numero %d", numero1);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:19:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   19 |  scanf("Ingresar un numero %d", numero2);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:20:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   20 |  scanf("Ingresar un numero %d", numero3);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:21:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   21 |  scanf("Ingresar un numero %d", numero4);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:22:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   22 |  scanf("Ingresar un numero %d", numero5);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:23:48: error: expected ‘;’ before ‘printf’
+   23 |  suma = numero1+numero2+numero3+numero4+numero5
+      |                                                ^
+      |                                                ;
+   24 |  printf("La suma es %d", suma);
+      |  ~~~~~~                                         
+../src/LibroC1.c:16:48: warning: variable ‘suma’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, suma;
+      |                                                ^~~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:50:43 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:18:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   18 |  scanf("Ingresar un numero %d", numero1);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:19:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   19 |  scanf("Ingresar un numero %d", numero2);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:20:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   20 |  scanf("Ingresar un numero %d", numero3);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:21:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   21 |  scanf("Ingresar un numero %d", numero4);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:22:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   22 |  scanf("Ingresar un numero %d", numero5);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:23:56: error: expected ‘;’ before ‘printf’
+   23 |  suma = numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                        ^
+      |                                                        ;
+   24 |  printf("La suma es %d", suma);
+      |  ~~~~~~                                                 
+../src/LibroC1.c:16:48: warning: variable ‘suma’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, suma;
+      |                                                ^~~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:51:03 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:18:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   18 |  scanf("Ingresar un numero %d", numero1);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:19:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   19 |  scanf("Ingresar un numero %d", numero2);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:20:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   20 |  scanf("Ingresar un numero %d", numero3);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:21:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   21 |  scanf("Ingresar un numero %d", numero4);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:22:29: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   22 |  scanf("Ingresar un numero %d", numero5);
+      |                            ~^   ~~~~~~~
+      |                             |   |
+      |                             |   int
+      |                             int *
+../src/LibroC1.c:23:54: error: expected ‘;’ before ‘printf’
+   23 |  sum= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                      ^
+      |                                                      ;
+   24 |  printf("La suma es %d", sum);
+      |  ~~~~~~                                               
+../src/LibroC1.c:16:48: warning: variable ‘sum’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, sum;
+      |                                                ^~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:52:41 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:55: error: expected ‘;’ before ‘printf’
+   23 |  suma= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                       ^
+      |                                                       ;
+   24 |  printf("La suma es %d", suma);
+      |  ~~~~~~                                                
+../src/LibroC1.c:16:48: warning: variable ‘suma’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, suma;
+      |                                                ^~~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:52:58 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:55: error: expected ‘;’ before ‘printf’
+   23 |  suma= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                       ^
+      |                                                       ;
+   24 |  printf("La suma es %d", suma);
+      |  ~~~~~~                                                
+../src/LibroC1.c:16:48: warning: variable ‘suma’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, suma;
+      |                                                ^~~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:53:19 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:54: error: expected ‘;’ before ‘printf’
+   23 |  sum= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                      ^
+      |                                                      ;
+   24 |  printf("La suma es %d", sum);
+      |  ~~~~~~                                               
+../src/LibroC1.c:16:48: warning: variable ‘sum’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, sum;
+      |                                                ^~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:53:29 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:54: error: expected ‘;’ before ‘printf’
+   23 |  sum= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                      ^
+      |                                                      ;
+   24 |  printf("La suma es %d", sum);
+      |  ~~~~~~                                               
+../src/LibroC1.c:16:48: warning: variable ‘sum’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, sum;
+      |                                                ^~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:53:49 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:23:54: error: expected ‘;’ before ‘printf’
+   23 |  sum= numero1 + numero2 + numero3 + numero4 + numero5
+      |                                                      ^
+      |                                                      ;
+   24 |  printf("La suma es %d", sum);
+      |  ~~~~~~                                               
+../src/LibroC1.c:16:48: warning: variable ‘sum’ set but not used [-Wunused-but-set-variable]
+   16 |  int numero1, numero2,numero3,numero4,numero5, sum;
+      |                                                ^~~
+make: *** [src/subdir.mk:20: src/LibroC1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:54:15 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:24:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("La suma es %d", &sum);
+      |                     ~^   ~~~~
+      |                      |   |
+      |                      int int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:54:40 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:24:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   24 |  printf("la suma es %d", &sum);
+      |                     ~^   ~~~~
+      |                      |   |
+      |                      int int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:55:16 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:55:27 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:55:33 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:56:04 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:56:11 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:25:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |  printf("la suma es %d", &sum);
+      |                     ~^   ~~~~
+      |                      |   |
+      |                      int int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:56:33 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:56:40 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:25:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |  printf("la suma es %d\n", &sum);
+      |                     ~^     ~~~~
+      |                      |     |
+      |                      int   int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:57:03 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:57:22 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+11:57:47 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:25:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   25 |  printf("la suma es %d\n", &sum);
+      |                     ~^     ~~~~
+      |                      |     |
+      |                      int   int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+11:57:52 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:01:21 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:30:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   30 |  printf("la suma es %d\n", &suma);
+      |                     ~^     ~~~~~
+      |                      |     |
+      |                      int   int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+12:01:59 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:02:05 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:02:35 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:03:01 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Command canceled
+12:03:05 **** Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:03:18 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:29:22: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   29 |  printf("la suma es %d\n", &sum);
+      |                     ~^     ~~~~
+      |                      |     |
+      |                      int   int *
+      |                     %ls
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+12:03:36 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:03:41 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:04:07 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:04:20 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:10:43 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+12:10:48 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:11:14 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:11:27 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:11:43 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:15:24 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+../src/LibroC1.c: In function ‘main’:
+../src/LibroC1.c:25:6: warning: unused variable ‘suma’ [-Wunused-variable]
+   25 |  int suma;
+      |      ^~~~
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+12:15:35 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+make: No se hace nada para 'all'.
+12:15:42 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 

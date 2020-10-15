@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : LibroC1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int numero1, numero2, numero3, numero4, numero5, sum;
+
+	printf("Ingresar 5 numeros\n");
+	scanf("Ingresar un numero %d\n",&numero1);
+	scanf("Ingresar un numero %d\n",&numero2);
+	scanf("Ingresar un numero %d\n",&numero3);
+	scanf("Ingresar un numero %d\n",&numero4);
+	scanf("Ingresar un numero %d\n",&numero5);
+	sum=numero1+numero2+numero3+numero4+numero5;
+	printf("la suma es %d\n", &sum);
+
+	return 0; //indica el fin del progama
+}

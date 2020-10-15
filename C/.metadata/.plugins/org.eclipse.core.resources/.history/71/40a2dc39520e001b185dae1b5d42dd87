@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : LibroC1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//declaracion de variables
+	int integer1, integer2, sum;
+
+	printf("Entrada primer variable\n"); 	//Imprimir
+	scanf("%d",&integer1);					//leer una variable
+	printf("Entrada segunda varible\n");	//Imprimir
+	scanf("%d",&integer2);					//leer una variable
+	sum= integer1+integer2;
+	printf("La suma es %d\n", sum);
+
+	return EXIT_SUCCESS; //indica el fin del progama
+}

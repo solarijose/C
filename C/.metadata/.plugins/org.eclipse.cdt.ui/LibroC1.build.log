@@ -1,0 +1,15 @@
+12:15:42 **** Incremental Build of configuration Debug for project LibroC1 ****
+make all 
+Building file: ../src/LibroC1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LibroC1.d" -MT"src/LibroC1.o" -o "src/LibroC1.o" "../src/LibroC1.c"
+Finished building: ../src/LibroC1.c
+ 
+Building target: LibroC1
+Invoking: GCC C Linker
+gcc  -o "LibroC1"  ./src/LibroC1.o   
+Finished building target: LibroC1
+ 
+
+12:15:44 Build Finished. 0 errors, 0 warnings. (took 2s.220ms)
+
